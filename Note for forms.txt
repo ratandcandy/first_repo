@@ -1,0 +1,70 @@
+<a href="url">link text</a>
+
+<a> </a>
+
+SYNTAX for Link types
+
+_self - opens the document in the same window/tab as it was clicked
+
+_blank - opens the document in a new window or tab
+
+_parent - opens the document in the parent frame
+
+_top - opens the document in the full body of the window
+
+ABSOLUTE LINKS - (a full web address in the href attribute e.g https://www.google.com)
+RELATIVE LINKS - (local links [link to a page within the same website]
+
+ANCHOR - bookmark - jump to a particular section on the webpage
+syntax - 'id' attribute <h1 id=#h1>H1 content</h1> '#h1' - id name (must have a hash symbol)
+
+<p id=#tag> some content goes here</p>
+
+HTML FORMS
+text information
+files/images/audio/video
+
+TEXT FIELD
+RADIO BUTTON
+CHECKBOX
+SELECT/DROPDOWN
+BUTTON
+
+<form>
+
+form elements
+
+</form>
+
+<input> - no need to close 
+
+<input type="text"> - displays a single-line text
+<input type="radio"> - one choice from a list 
+<input type="checkbox> - select multiple from a list
+<input type="select"> - select from a list of options
+<input type="button"> - just a button
+
+<label> - add a label to form elements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
