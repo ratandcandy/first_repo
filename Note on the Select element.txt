@@ -1,0 +1,17 @@
+<select> - creates a drop-down
+<option value="category_item">category_item_name</option>
+<option value="category_item">category_item_name</option>
+</select>
+
+<select id="phones" name="OS">
+<option value="Android">Android</option>
+<option value="iOS">iOS</option>
+<option value="Windows">Windows</option>
+<option value="Java">Java</option>
+<option value="symbian">Symbian OS</option>
+</select>
+
+selected - selects a particular item
+multiple - allows the user to select more than one item
+
+textarea - assignment
