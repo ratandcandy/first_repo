@@ -21,11 +21,26 @@
 
     <input type="radio" id="gender" name="gender" value="not-to-say">
     <label for="gender">Prefer not to say</label><br>
-
-    <select id="phones" name="OS">
+    <br>
+    <label for="phones">Select phone Operating System</label>
+    
+    <select id="phones" name="OS" >
+        <option value="Android">Android</option>
+        <option value="iOS">iOS</option>
+        <option value="Windows">Windows</option>
+        <option value="Java" selected>Java</option>
+        <option value="symbian">Symbian OS</option>
+        </select>
+    
+            <br>
+            
+        <label for="phones">Select phone Operating System - Multiple</label>
+        
+        <select id="mobile_device" name="Operating_System" multiple>
         <option value="Android">Android</option>
         <option value="iOS">iOS</option>
         <option value="Windows">Windows</option>
         <option value="Java">Java</option>
         <option value="symbian">Symbian OS</option>
+        </select>
 </form>
