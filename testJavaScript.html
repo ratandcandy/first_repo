@@ -1,0 +1,28 @@
+<html>
+    <body> 
+        <h1>This is the heading</h1>
+        <p id="mouse"> This is the new 
+            
+            
+            paragraph</p>
+        <div id="cat">The lazy cat jumps so high</div><br>
+
+        <button type="button" onclick='document.getElementById("mouse").innerHTML="This paragraph will replace the mouse paragraph"
+
+        '>Change HMTL Content</button>
+
+        <button type="button" onclick='document.getElementById("cat").style.fontSize="35px"'>Change CSS property</button>
+        <br><br>
+
+         <!--button to turn the bulb on-->
+        <button type="button" onclick="document.getElementById('bulb').src='pic_bulbon.gif'"">Turn On</button>
+
+        <!--this is the image itself with the id=bulb-->
+        <img id="bulb" src="pic_bulboff.gif">
+
+             <!--button to turn off the bulb-->
+        <button type="button" onclick="document.getElementById('bulb').src='pic_bulboff.gif'">Turn Off</button>
+
+        
+    </body>
+</html>

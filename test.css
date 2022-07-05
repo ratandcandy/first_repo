@@ -1,0 +1,17 @@
+h1{border: 20px dotted red;margin-top: 20px;margin:25px 50px 74px 130px;
+    padding-top: 60px;padding-bottom: 60px;
+text-align: center;}
+    p{border-style: dashed;border: 3px;}
+    div{border-style: solid;}
+
+    p.dotted{border-style: dotted;margin-left: 90px;}
+    p.dashed{border-style: dashed;}
+    p.solid{border-style: solid;}
+    p.double{border-style: double;}
+    p.groove{border-style: groove;}
+    p.ridge{border-style: ridge;}
+    p.inset{border: 7px inset}
+    p.outset{border: 7px outset}
+    p.none{border-style: none;}
+    p.hidden{border-style: hidden;}
+    p.mix{border-style: dotted solid double dashed;}

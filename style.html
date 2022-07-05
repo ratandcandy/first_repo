@@ -13,5 +13,24 @@
         <div>This div element will be modified from an external css file</div>
         <input type="text" placeholder="inherited from style.css">
 
+        <h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<p id="kome">This text will change from JavaScript</p>
+
+  <button type="button" onclick='document.getElementById("kome").innerHTML="I changed this text using javascript"'>Click me to change text</button>
+
+  <div id="alex">This paragraph will change</div>
+
+  <button type="button" onclick='document.getElementById("alex").innerHTML="I changed this with javascript"'>Click me now</button>
     </body>
 </html>
