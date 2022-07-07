@@ -1,0 +1,49 @@
+VARIABLES - value can change 
+CONSTANTS - value doesn't change
+
+syntax:
+variable - var
+
+var x = 5;
+x = 5
+var name = "John"
+
+constant - const
+const PI = 3.142;
+const NAME = "ALEX"
+
+constant - let
+let x = 7;
+let y = 5;
+
+EXPRESSION = Operands + operators
+operands - variable + constants
+operators - +,-,/,*,%
+
+x = y + z
+
+
+
+
+FUNCTIONS
+simply a codeblock that performs a task. it is embedded within curly brackets {}
+
+syntax:
+
+function functionName(arguments)
+{
+	//code
+	retrun value;
+
+}
+
+Calling function: functionName();
+
+Rules for creating function names:
+-contain letters
+-digits
+-underscores
+-dollar sign
+--cannot start with a number
+
+
